@@ -1,0 +1,68 @@
+﻿Build started 2014-12-18 18:40:42.
+     1>Project "C:\Work\Projects\AutoHotkey\AutoHotkey.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt source\application.cpp source\AutoHotkey.cpp source\clipboard.cpp source\globaldata.cpp source\hook.cpp source\hotkey.cpp source\keyboard_mouse.cpp "source\mt19937ar-cok.cpp" source\os_version.cpp source\script.cpp source\script2.cpp source\script_autoit.cpp source\script_expression.cpp source\script_gui.cpp source\script_menu.cpp source\script_registry.cpp source\SimpleHeap.cpp source\stdafx.cpp source\util.cpp source\var.cpp source\window.cpp source\WinGroup.cpp
+         WinGroup.cpp
+         window.cpp
+         var.cpp
+         util.cpp
+         stdafx.cpp
+         SimpleHeap.cpp
+         script_registry.cpp
+         script_menu.cpp
+         script_gui.cpp
+         script_expression.cpp
+         script_autoit.cpp
+         script2.cpp
+         script.cpp
+         os_version.cpp
+     1>c:\work\projects\autohotkey\source\os_version.cpp(96): warning C4996: 'GetVersionExA': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+         mt19937ar-cok.cpp
+         keyboard_mouse.cpp
+         hotkey.cpp
+         hook.cpp
+         globaldata.cpp
+         clipboard.cpp
+         Generating Code...
+         Compiling...
+         AutoHotkey.cpp
+         application.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\AutoHotkey.res" source\resources\AutoHotkey.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /nologo /fo"Debug\AutoHotkey.exe.embed.manifest.res" Debug\AutoHotkey_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\AutoHotkey.exe" /INCREMENTAL /NOLOGO wsock32.lib winmm.lib version.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:source\resources\AutoHotkey.exe.manifest /DEBUG /PDB:"Debug\AutoHotkey.pdb" /SUBSYSTEM:WINDOWS /STACK:"4194304","0" /TSAWARE:NO /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\AutoHotkey.lib" /MACHINE:X86 /SAFESEH Debug\AutoHotkey.res
+         Debug\application.obj
+         Debug\AutoHotkey.obj
+         Debug\clipboard.obj
+         Debug\globaldata.obj
+         Debug\hook.obj
+         Debug\hotkey.obj
+         Debug\keyboard_mouse.obj
+         "Debug\mt19937ar-cok.obj"
+         Debug\os_version.obj
+         Debug\script.obj
+         Debug\script2.obj
+         Debug\script_autoit.obj
+         Debug\script_expression.obj
+         Debug\script_gui.obj
+         Debug\script_menu.obj
+         Debug\script_registry.obj
+         Debug\SimpleHeap.obj
+         Debug\stdafx.obj
+         Debug\util.obj
+         Debug\var.obj
+         Debug\window.obj
+         Debug\WinGroup.obj
+         C:\Work\Projects\AutoHotkey\Source\lib_pcre\Debug\lib_pcre.lib
+     1>application.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>CVTRES : fatal error CVT1100: duplicate resource.  type:MANIFEST, name:1, language:0x0409
+     1>LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+     1>Done Building Project "C:\Work\Projects\AutoHotkey\AutoHotkey.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.32
